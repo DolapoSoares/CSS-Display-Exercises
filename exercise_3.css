@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+#wrap{
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(50, 50, 163);
+}
+.list{
+    list-style: none;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin: 5% auto;
+
+}
+#nav{
+    padding-left: 5px;
+    width:30%;
+    background-color:rgb(178, 201, 243);
+}
+#content{
+    padding-left: 5px;
+    width: 70%;
+    background-color: rgb(44, 95, 190);
+}
+.copyright{
+    display: flex;
+    margin-left: 36%;
+    justify-content: flex-start;
+}
+p, ul{
+    font-size: 20px;
+}
